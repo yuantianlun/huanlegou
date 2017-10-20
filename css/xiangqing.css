@@ -1,0 +1,226 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-19 17:19:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-20 00:53:39
+*/
+@import url('base.css');
+
+
+.zhp{
+	width: 100%;
+	height:6rem;
+	display: flex;
+	justify-content: flex-end;
+	align-content: space-between;
+	flex-wrap: wrap;
+	position: relative;
+}
+.zhp img{
+	width: 100%;
+	height:6rem;}
+
+.zhp-sh{
+	width: 100%;
+	height: 0.35rem;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 0rem;
+	top:0.3rem; 
+}
+.fanhui{
+	display: block;
+    width: 0.22rem;
+    height: 0.35rem;
+    color: #fff;
+    font-size: 0.55rem;
+}
+.icon1{
+	font-family:"iconfont" !important;
+    font-style:normal;
+    font-size:0.35rem; 
+    color: #fff;
+    float: left;
+    text-align: center;
+    line-height: 0.35rem; 
+}
+
+.zhp-rt{
+	width: 1.68rem;
+    height: 0.35rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zhp-box1{
+	display: block;
+	width: 0.35rem;
+    height: 0.35rem;
+}
+.zhp-xia{
+	width: 0.64rem;
+	height: 0.34rem;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 0.2rem;
+	position: absolute;
+	right: 0.3rem;
+	bottom:0.3rem; 
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+    line-height: 0.34rem; 
+}
+
+
+.namebigbox {
+	width: 100%;
+	height: 3.3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.spname{
+	margin-left: 0.1rem;
+}
+.spname1 {
+	width: 100%;
+	height: 1.12rem;
+	font-size: 0.3rem;
+	color: #313031;
+}
+
+.spname2 {
+	width: 4.5rem;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nam01 {
+	width: 2.86rem;
+	height: 100%;
+	font-size: 0.3rem;
+	color: #313031;
+	line-height: 1.1rem;
+	text-align: left;
+}
+
+.namer02 {
+	width: 1.48rem;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.p1 {
+	width: 100%;
+	height: 0.32rem;
+	font-size: 0.3rem;
+	color: #9c9a9c;
+	text-decoration: line-through;
+}
+
+.p2 {
+	width: 0.76rem;
+	height: 0.48rem;
+	background: #ffebef;
+	color: #ff5573;
+	font-size: 0.36rem;
+}
+
+.dianpdj {
+	width: 1.15rem;
+	height: 1.15rem;
+	margin-right: 0.1rem;
+}
+.dianpdj img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.listimg img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.dw{
+	width: 100%;
+	height: 0.8rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.01rem 0.3rem;
+	position:fixed;
+	bottom:0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	box-shadow: 0px -10px 40px 1px rgba(0, 0, 0, 0.1); 
+}
+.dw-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid #f0f0f0;
+}
+.dw-xiaobox{
+	width: 0.7rem;
+	height:0.6rem;
+	
+}
+.dw-xiaobox:nth-child(3){
+	width: 1rem;
+}
+.dw-xiaobox a{
+	display: block;
+	width: 0.7rem;
+	height:0.6rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
+}
+.dw-icon{
+	font-family:"iconfont";
+	font-style:normal;
+	width: 0.6rem;
+	height:  0.34rem;
+	font-size: 0.34rem;
+	color: #000;
+	line-height: 0.6rem;
+	text-align: center;
+}
+.dw-icon:nth-child(1){
+	color: #ff6600;
+}
+.dw-zi{
+	width: 100%;
+	margin-top: 0.12rem;
+     font-size: 0.2rem;
+     color: #000;
+     text-align: center;
+}
+.dw-rt{
+	width: 60%;
+	height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dw-jiaru{
+	display: block;
+	width: 50%;
+	height: 100%;
+	background: #fff;
+	font-size: 0.28rem;
+    color: #ff6600;
+    text-align: center;
+    line-height: 0.8rem;
+
+}
+.goumai{
+	background: #ff6600;
+	color: #fff;
+}

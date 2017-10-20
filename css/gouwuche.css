@@ -1,0 +1,245 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-16 00:26:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-19 17:12:22
+*/
+@import url('base.css');
+
+header{
+	width: 100%;
+	height: 1rem;
+	background: #ff8402;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.header{
+	width: 25%;
+	height: 40%;
+	font-size: 0.3rem;
+	color: #fff;
+
+}
+
+.neirong{
+	width: 100%;
+	height: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f4f4f4;
+
+	
+}
+.neirongdhz{
+	width: 60%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.neirongtp{
+	width: 2.5rem;
+	height: 60%;
+
+}
+.neirongtp img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.neirongwz{
+	width: 100%;
+	height: 40%;
+
+}
+.neirongwz-top{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.38rem;
+	color: #666666;
+	text-align: center;
+	margin-top: 0.4rem;
+}
+.neirongwz-right{
+	width: 100%;
+	height: 0.3rem;
+	font-size: 0.25rem;
+	color: #999999;
+	margin-top: 0.4rem;
+	
+}
+
+
+
+
+/* 猜你喜欢 */
+.cnxhbt{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.cnxhbthzleft{
+	float: left;
+	width: 0.28rem;
+	height: 0.02rem;
+	background: #999999;
+	margin-top: 0.32rem;
+}		
+.cnxhbthzright{
+	float:left;
+	width: 0.28rem;
+	height: 0.02rem;
+	background: #999999;
+	margin-top: 0.32rem;
+}
+.cnxhbthz{
+	width: 2.06rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.zhongjian4{
+	float: left;
+	width: 1.44rem;
+	height:100%;
+}
+
+.cnxhbthzzhong{
+	margin-left: 0.3rem;
+	float: left;
+	width: auto;
+	height: 0.3rem;
+	margin-left:0.2rem;
+	margin-right:0.2rem;
+	margin-top: 0.16rem;
+	font-size: 0.26rem;
+	text-align: center;
+	color: #999999;
+}
+
+.lovemainbox{
+	width: 100%;
+	height: 27.5rem;
+	margin-bottom: 1.22rem;
+}
+.lovemainhead{
+	width: 100%;
+	height: 100%;
+}
+.lovemainhead li{
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-bottom: 0.1rem;
+}
+
+
+.loveimg{
+	display: block;
+	width: 100%;
+	height: 3.17rem;
+}
+.loveh1{
+	margin-top: 0.14rem;
+	display: block;
+	width: 90%;
+	height: auto;
+	font-size: 0.2rem;
+	color: #66667d;
+	margin-left: 0.17rem;
+	overflow: hidden;
+	line-height: 0.25rem;
+}
+.love1 p{
+	height: auto;
+	line-height: 0.24rem;
+	margin-bottom: 0.2rem;
+}
+.love2 p{
+	height: auto;
+	margin-bottom: 0.1rem;
+}
+.loveh2{
+	margin-top: 0.20rem;
+	display: block;
+	width: 90%;
+	height: 0.23rem;
+	font-size: 0.23rem;
+	color: #dd2727;
+	margin-left: 0.17rem;		
+}
+.loveimg img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* 底部开始 */
+footer{
+		width: 100%;
+		height: 1.2rem;
+		background: white;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+
+}
+.foot{
+		width: 100%;
+		height: 100%;
+		/* background: yellow; */
+		display: flex;
+		justify-content: space-around;
+}
+.foot li a{
+		width: 1.09rem;
+		height: 100%;
+		/* background: red; */
+		display: flex;
+		align-content: space-between;
+		flex-wrap: wrap;
+}
+.footicf{
+		flex-basis: 100%;
+		
+		height: 0.85rem;
+		/* background: blue; */
+		font-size: 0.64rem;
+		text-align: center;
+		line-height: 0.9rem;
+		color: #636563;
+
+}
+.foottext{
+		flex-basis: 100%;
+		height: 0.46rem;
+		/* background: blue; */
+		font-size: 0.24rem;
+		text-align: center;
+		color: #9c9e9c;
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:0.64rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.foot li:nth-child(3) .footicf{
+		color: #ff6600;
+}
+.foot li:nth-child(3) .foottext{
+		color: #ff6600;
+}

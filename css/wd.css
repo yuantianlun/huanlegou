@@ -1,0 +1,249 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-16 01:47:31
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-19 16:59:07
+*/
+@import url('base.css');
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 2.5rem;
+	background: #ff8402;
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+	/* z-index: 999; */
+}
+.tb-top{
+	width: 100%;
+	height: 0.3rem;
+}
+.tb-top i{
+	float: right;
+	font-size: 0.3rem;
+	margin-right: 0.2rem;
+	margin-top: 0.2rem;
+	color: #000;
+}
+.tbhz{
+	width: 100%;
+	height: 1.5rem;
+
+}
+.tbhz h6{
+	font-size: 0.45rem;
+	text-align: center;
+}
+.tbyuan{
+	width: 0.9rem;
+	height: 0.9rem;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: red;
+	border: 0.02rem solid #000;
+}
+
+
+
+
+
+.wddd{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	background: #f3f3f3;
+	color: #323232;
+	align-items: center;
+	border-bottom: 0.01rem solid #e5e5e5;
+}
+.wddd h3{
+	font-size: 0.45rem;
+	margin-left: 0.5rem;
+	
+}
+.wddd h4{
+	font-size: 0.3rem;
+	margin-right: 0.2rem;
+	color: #333333;
+	
+}
+
+
+main ul{
+	width: 100%;
+	height: 2.25rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+main ul li{
+	width: 1.3rem;
+	height: 1.28rem;
+	text-align: center;
+	line-height:0.7rem; 
+	color: #333;
+	font-size:0.34rem; 
+}
+
+main ul  li .iconfont{
+	font-size: 0.55rem;
+	color: #ff6600;
+}
+main ul  li div{
+	font-size: 0.24rem;
+}
+
+
+
+
+
+
+/* 背景 */
+.bj{
+	/* width: 100%; */
+	height: 1rem;
+	background: #f0f0f0;
+	display: flex;
+    justify-content: space-between;
+	line-height: 0.5rem;
+}
+
+
+.bj-zi{
+	margin-left: 0.5rem;
+	font-size: 0.45rem;
+	color: #000000;
+	line-height: 1rem;
+
+}
+.bj-zi-right{
+	font-size: 0.3rem;
+	margin-right: 0.2rem;
+	color: #333333;
+	line-height: 1rem;
+	
+}
+.zhushou{
+	width: 100%;
+	height: 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.zs-xiaobox{
+	width: 25%;
+	height: 50%;
+	border-bottom:0.01rem solid #f0f0f0; 
+	border-right:0.01rem solid #f0f0f0; 
+	display: flex;
+	align-items: flex-end;
+}
+.zs-xiaobox:nth-child(4),.zs-xiaobox:nth-child(8){
+    border-right:0;
+}
+.zs-xb-x{
+	display: block;
+	width: 100%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 0.1rem;
+}
+.iconfont1{
+	font-family:"iconfont";
+	width: 100%;
+ 	height: 0.62rem;
+	font-size: 0.62rem;
+	color: #ead600;
+	text-align: center;
+	font-style:normal;
+	float: left;
+	line-height:0.72rem; 
+}
+.icon-xihuan{
+	font-size: 0.72rem;
+}
+.icon-pingjia,.icon-wen{
+	color:skyblue;
+}
+.icon-youhuiquan,.icon-fushi{
+	color: #47c671;
+}
+.icon-tongchengzhida,.icon-bangzhu{
+	color: #ec6865;
+}
+.zs-zi{
+	font-size: 0.24px;
+	color: #051b28;
+	display: block;
+	text-align: center;
+	margin-top: 0.15rem;
+	margin-bottom: 0.27rem;
+
+}
+
+/* <!-- 助手结束 --> */
+.bj1{
+	width: 100%;
+	height: 0.05rem;
+	background: #f0f0f0;
+}
+/* 底部开始 */
+footer{
+		width: 100%;
+		height: 1.2rem;
+		background: white;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+
+}
+.foot{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+}
+.foot li a{
+		width: 1.09rem;
+		height: 100%;
+		display: flex;
+		align-content: space-between;
+		flex-wrap: wrap;
+}
+.footicf{
+		flex-basis: 100%;
+		height: 0.85rem;
+		font-size: 0.64rem;
+		text-align: center;
+		line-height: 0.9rem;
+		color: #636563;
+
+}
+.foottext{
+		flex-basis: 100%;
+		height: 0.46rem;
+		font-size: 0.24rem;
+		text-align: center;
+		color: #9c9e9c;
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:0.64rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.foot li:nth-child(4) .footicf{
+		color: #ff6600;
+}
+.foot li:nth-child(4) .foottext{
+		color: #ff6600;
+}
